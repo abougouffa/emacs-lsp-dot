@@ -26,6 +26,8 @@
 
 (require 'lsp-mode)
 
+(add-to-list 'lsp-language-id-configuration '(graphviz-dot-mode . "dot"))
+
 ;;; DOT Language (Graphviz)
 (defgroup lsp-dot nil
   "Settings for the DOT Language Server."
